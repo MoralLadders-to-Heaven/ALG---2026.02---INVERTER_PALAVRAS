@@ -8,6 +8,11 @@ int main(void) {
 
     printf("Digite uma palavra: ");
 
+    if (fgets(palavra, sizeof(palavra), stdin) == NULL) {
+        printf("Erro na leitura.\n");
+        return 1;
+    }
+
     palavra[strcspn(palavra, "\n")] = '\0';
 
     j = strlen(palavra) - 1;
