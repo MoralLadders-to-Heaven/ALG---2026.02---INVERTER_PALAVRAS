@@ -25,7 +25,7 @@ A atividade foi organizada em um arquivo `.c` separado, conforme solicitado.
 
 ```text
 📁 repositorio/
-├── exercicio.c
+├── main.c
 └── README.md
 ```
 
